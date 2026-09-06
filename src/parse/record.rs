@@ -1,6 +1,9 @@
 //! The parsed record of one line.
 
-use crate::types::{Edge, Node};
+use crate::types::{
+    Edge,
+    Node,
+};
 
 /// One parsed PG-JSONL line.
 #[derive(Debug, Clone, PartialEq, Eq)]

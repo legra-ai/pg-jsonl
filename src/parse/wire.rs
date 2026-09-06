@@ -1,14 +1,18 @@
 //! Serde shapes of the two accepted line dialects.
 //!
-//! * the plain dialect: `{"type":"node","id":..,"labels":[..],"properties":{..}}`
-//!   and `{"type":"edge","source":..,"target":..,"label":..,"properties":{..}}`;
+//! * the plain dialect:
+//!   `{"type":"node","id":..,"labels":[..],"properties":{..}}` and
+//!   `{"type":"edge","source":..,"target":..,"label":..,"properties":{..}}`;
 //! * Neo4j APOC `apoc.export.json`: `{"type":"relationship","id":..,"label":..,
 //!   "start":{"id":..,"labels":[..]},"end":{"id":..},"properties":{..}}`.
 //!
 //! Both are accepted on every line; a file may mix them.
 
 use serde::Deserialize;
-use serde_json::{Map, Value};
+use serde_json::{
+    Map,
+    Value,
+};
 
 use crate::value::Id;
 

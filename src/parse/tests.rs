@@ -1,5 +1,9 @@
 use crate::error::PgJsonlError;
-use crate::parse::{PgJsonlRecord, PgJsonlStreamParser, parse_pg_jsonl};
+use crate::parse::{
+    PgJsonlRecord,
+    PgJsonlStreamParser,
+    parse_pg_jsonl,
+};
 
 #[test]
 fn plain_dialect_nodes_and_edges() {
