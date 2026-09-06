@@ -2,8 +2,15 @@
 
 use crate::error::PgJsonlError;
 use crate::parse::record::PgJsonlRecord;
-use crate::parse::wire::{EdgeLine, Line, NodeLine};
-use crate::types::{Edge, Node};
+use crate::parse::wire::{
+    EdgeLine,
+    Line,
+    NodeLine,
+};
+use crate::types::{
+    Edge,
+    Node,
+};
 use crate::value::properties_from;
 
 /// Stateful line-by-line PG-JSONL parser. Memory is bounded by one

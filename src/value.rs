@@ -1,6 +1,9 @@
 //! JSON values → text properties with type hints.
 
-use serde_json::{Map, Value};
+use serde_json::{
+    Map,
+    Value,
+};
 
 use crate::types::Property;
 
