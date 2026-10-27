@@ -1,6 +1,6 @@
 [package]
 name = "pg-jsonl"
-version = "0.1.1"
+version = "0.1.2"
 description = "Streaming parser for property-graph JSON Lines (PG-JSONL) node and edge files, including Neo4j APOC JSON exports"
 authors = ["DataRoad Inc, Delaware, USA, trading as Legra"]
 edition = "2024"
