@@ -134,9 +134,9 @@ dependencies = [
 
 [[package]]
 name = "property-graph-model"
-version = "0.1.7"
+version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cba13549169b66bed8e415a78c81bc861d35278b90c278eb578fc9a5726fa330"
+checksum = "ab464bb06e4d755627c39afde7f10ea110935dde32b52c864ed6084ea0676067"
 dependencies = [
  "rhusky",
 ]
@@ -158,9 +158,9 @@ checksum = "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf"
 
 [[package]]
 name = "rhusky"
-version = "2.0.10"
+version = "2.0.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "af4c824fe55536385ff90cdb2499978b06534a3cb6df0b16c906a95b7e489af5"
+checksum = "c3a23dedae15f64cc7386ff66b29be5141ae5046ae994b87594e8a0032a119d4"
 dependencies = [
  "async-fs-io",
  "tokio",
